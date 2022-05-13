@@ -1,0 +1,29 @@
+#container{
+    /* border: 1px solid black; */
+    height: 30px;
+    width:500px;
+    margin-top: 2vw;
+    margin-left: 25vw;
+    }
+
+    input{
+        height:25px;
+        width:400px;
+        
+    }
+    #btn{
+        height: 30px;
+        width:85px;
+    }
+    #box{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        gap:3vw;
+    }
+
+    .div{
+        border: 1px solid black;
+    }
+
+
